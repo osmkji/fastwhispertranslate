@@ -1,0 +1,73 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables & credentials
+.env
+.env.*
+!.env.example
+!.env.template
+
+# ML / AI Models & Weights (Whisper, CTranslate2, NLLB, etc.)
+models/
+nllb-200-*/
+*-ct2/
+*.bin
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# Model Caches (Hugging Face / Transformers)
+.cache/
+huggingface/
+
+# Audio / Video / Subtitle processing & temporary export files
+*.mp3
+*.mp4
+*.wav
+*.m4a
+*.aac
+*.flac
+*.ogg
+*.webm
+*.mkv
+*.srt
+*.vtt
+
+# Logs & Database Dumps
+*.log
+logs/
+dump.rdb
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Testing & Linting
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Editor & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

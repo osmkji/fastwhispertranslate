@@ -1,7 +1,10 @@
-﻿fastapi
+fastapi
 uvicorn[standard]
 python-multipart
 faster-whisper
 pydantic
 pydantic-settings
 python-dotenv
+redis
+transformers
+sentencepiece
